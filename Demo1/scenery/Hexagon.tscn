@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scenery/empty_hexagon.png" type="Texture" id=1]
+[ext_resource path="res://scenery/blue_hexagon.png" type="Texture" id=2]
+[ext_resource path="res://scenery/red_hexagon.png" type="Texture" id=3]
+[ext_resource path="res://scenery/gray_hexagon.png" type="Texture" id=4]
+[ext_resource path="res://scenery/yellow_hexagon.png" type="Texture" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Empty" type="Sprite" parent="." index="0"]
+
+texture = ExtResource( 1 )
+
+[node name="Player" type="Sprite" parent="." index="1"]
+
+visible = false
+modulate = Color( 1, 1, 1, 0.752941 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Enemy" type="Sprite" parent="." index="2"]
+
+visible = false
+modulate = Color( 1, 1, 1, 0.752941 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="MoveMark" type="Sprite" parent="." index="3"]
+
+visible = false
+modulate = Color( 1, 1, 1, 0.752941 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="AttackMark" type="Sprite" parent="." index="4"]
+
+visible = false
+modulate = Color( 1, 1, 1, 0.752941 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Visibility" ]
+
+

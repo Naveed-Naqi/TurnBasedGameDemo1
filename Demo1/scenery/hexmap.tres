@@ -1,0 +1,56 @@
+[gd_resource type="TileSet" load_steps=6 format=2]
+
+[ext_resource path="res://scenery/hex_empty_ns.png" type="Texture" id=1]
+[ext_resource path="res://scenery/hex_gray_ns.png" type="Texture" id=2]
+[ext_resource path="res://scenery/hex_red_ns.png" type="Texture" id=3]
+[ext_resource path="res://scenery/hex_yellow_ns.png" type="Texture" id=4]
+[ext_resource path="res://scenery/hex_blue_ns.png" type="Texture" id=5]
+
+[resource]
+
+0/name = "hex_empty_ns"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 110, 126 )
+0/is_autotile = false
+0/occluder_offset = Vector2( 55, 63 )
+0/navigation_offset = Vector2( 55, 63 )
+0/shapes = [  ]
+1/name = "hex_gray_ns"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 110, 126 )
+1/is_autotile = false
+1/occluder_offset = Vector2( 55, 63 )
+1/navigation_offset = Vector2( 55, 63 )
+1/shapes = [  ]
+2/name = "hex_red_ns"
+2/texture = ExtResource( 3 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 110, 126 )
+2/is_autotile = false
+2/occluder_offset = Vector2( 55, 63 )
+2/navigation_offset = Vector2( 55, 63 )
+2/shapes = [  ]
+3/name = "hex_yellow_ns"
+3/texture = ExtResource( 4 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 110, 126 )
+3/is_autotile = false
+3/occluder_offset = Vector2( 55, 63 )
+3/navigation_offset = Vector2( 55, 63 )
+3/shapes = [  ]
+4/name = "hex_blue_ns"
+4/texture = ExtResource( 5 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 110, 126 )
+4/is_autotile = false
+4/occluder_offset = Vector2( 55, 63 )
+4/navigation_offset = Vector2( 55, 63 )
+4/shapes = [  ]
+

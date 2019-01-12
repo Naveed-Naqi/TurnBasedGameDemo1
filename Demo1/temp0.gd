@@ -6,6 +6,7 @@ onready var node = get_node("../Cells")
 var currentPosition = Vector2()
 var isRunning = false
 var target = Vector2()
+var tileCounter = 0
 
 #Update player position as soon as player spawns
 func _ready():
@@ -16,10 +17,10 @@ func _input(event):
 	if event.is_action_pressed("click"):
 		if(!isRunning):
 			target = get_global_mouse_position()
+			tileCounter = node.runCode(target)
 			isRunning = true
-			tween.interpolate_property(self, "position", position, position + Vector2(110,0), 1, Tween.TRANS_QUAD, Tween.EASE_IN)
+			tween.interpolate_property(self, "position", position, position + Vector2(110*tileCounter,0), 1, Tween.TRANS_QUAD, Tween.EASE_IN)
 			tween.start()
-			print(node.runCode(target))
 		
 		#x = 100
 		#y = 30
